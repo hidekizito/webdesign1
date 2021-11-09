@@ -1,0 +1,16 @@
+.blogtitle {
+    color: #FF6962;
+    font-size: 64px;
+}
+.changesize {
+    font-size: 32px;
+}
+div p {
+    background: gray;
+}
+p.colorblue {
+    color: #65BDFF;
+}
+main div div p.someclass strong {
+    color: red;
+}

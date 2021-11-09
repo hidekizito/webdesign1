@@ -1,0 +1,7 @@
+HTML5: HyperText Markup Language 
+CSS3: Cascading Style Sheets (Styling language)
+
+3 ways of writing css:
+- Inline method: style html attribute
+- Style tag method: <style>
+- CSS file (recommended method)
