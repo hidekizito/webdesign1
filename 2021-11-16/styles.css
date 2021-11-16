@@ -1,0 +1,64 @@
+div a {
+    color: #DA291C;
+}
+html, body {
+    background: #FFC72C;
+    color: #DA291C;
+    font-family: "Lucida Grande", Corbel, "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    /*
+    Type here. This is a comment.
+    text-align: center;
+    */
+    
+
+}
+p {
+    font-size: 18px;
+}
+/*
+h1 {
+    font-size: 10px;
+}
+*/
+
+span {
+    font-weight: bold;
+}
+main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main article {
+    padding-left: 50px;
+    padding-right: 50px;
+    /*
+    */
+}
+
+.topimage {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:  url(images/site-bg.jpg) no-repeat;
+    /*
+    background-position: 10px 50px;
+    */
+    color: #000000;
+}
+
+.colorblue {
+    color: #0DA0F8;
+}
+.makebold {
+    font-weight: bold;
+}
+.colorred {
+    color: #B10000;
+}
+.colorgreen {
+    color: #159560;
+}
+.colororange {
+    color: #FF9300;
+}
