@@ -1,0 +1,27 @@
+
+html, body {
+    font-family: "Lucida Grande", Corbel, "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+header {background: #000000; font-size: 14px; padding: 10px;}
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav {
+    float: left;
+}
+nav ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+ul.rightlinks {
+    float: right;
+}
+
+ul.rightlinks li {
+    float: left;
+    margin-left: 10px;
+}

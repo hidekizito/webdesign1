@@ -1,0 +1,13 @@
+p {
+    margin-bottom: 10px;
+}
+div {
+    float: left;
+}
+
+.bgorange {
+    background: orange;
+}
+.bggreen {
+    background: green;
+}

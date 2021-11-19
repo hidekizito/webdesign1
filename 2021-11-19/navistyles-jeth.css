@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+    background: #000000;
+}
+
+header a {
+    color: #FFFFFF;
+}
+
+nav {
+    float: left;
+}
+
+nav li {
+    float: left;
+}
+
+ul.rightlinks {
+    float: right;
+}
+
+ul.rightlinks li {
+    float: left;
+}
