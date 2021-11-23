@@ -3,7 +3,20 @@ html, body {
     font-family: "Lucida Grande", Corbel, "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
 
-header {background: #000000; font-size: 14px; padding: 10px;}
+header {
+    background: #000000;
+    font-size: 14px;
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    */
+    /*
+    padding:10px 30px 10px 30px;
+    */
+    padding:10px 30px; /*shorthand*/
+}
 header a {
     color: #FFFFFF;
     text-decoration: none;
@@ -14,7 +27,10 @@ nav {
 }
 nav ul li {
     float: left;
+    /*
     margin-right: 10px;
+    */
+    margin:0 10px 0 0;  /*shorthand*/
 }
 
 ul.rightlinks {
@@ -24,4 +40,26 @@ ul.rightlinks {
 ul.rightlinks li {
     float: left;
     margin-left: 10px;
+}
+
+.nudgedown {
+    position:relative;
+    top:11px;
+}
+
+main {
+    float:left;
+    background:#FF6962;
+    width:700px;
+}
+#sidebar1 {
+    float:left;
+    background:#FFC72C;
+    width:300px;
+}
+
+#mainarea {
+    width:1000px;
+    margin:0 auto;  /*shorthand*/
+    background:red;
 }

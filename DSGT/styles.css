@@ -1,0 +1,25 @@
+
+h2 {
+    font-family: 'Open Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:48px;
+    margin-bottom:30px;
+}
+p {
+    font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:16px;
+}
+#app {
+    background:url(images/app-phones.png) right bottom no-repeat #cef2f9;
+    min-height:340px;
+    padding:50px;
+}
+#app .app-data {
+    margin-right:450px;
+}
+#app .icons {
+    margin-top:30px;
+}
+#app p {
+    line-height:1.6rem;
+    color:#555555;
+}
