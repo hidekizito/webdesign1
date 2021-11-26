@@ -1,0 +1,30 @@
+html, body {background:#999;}
+#header {
+    background:#FFF;
+    width:1000px;
+    margin:0 auto 20px auto;    /* top right bottom left */
+}
+main {
+    width:1000px;
+    margin:0 auto;
+}
+.row {
+    margin-bottom:20px;
+}
+.row div {
+    width:320px;
+    height:320px;
+    background:#FFF;
+    float:left;
+}
+.midcol {
+    margin:0 20px;
+}
+main > div:last-child {
+    margin-bottom:0;
+}
+/*
+.lastrow {
+    margin-bottom:0;
+}
+*/

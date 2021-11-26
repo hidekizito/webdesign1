@@ -1,0 +1,41 @@
+html, body {
+    background:#999;
+    font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h4 {
+    font-size:36px;
+    font-weight:bold;
+}
+#header {
+    background:#FFF;
+    width:1000px;
+    margin:0 auto 20px auto;    /* top right bottom left */
+}
+main {
+    width:1000px;
+    margin:0 auto;
+}
+
+#content {
+    width:680px;
+    float:left;
+    margin-right:20px;
+}
+#content .row {
+
+    margin-bottom:20px;
+}
+#content .row div {
+    width:328px;
+    float:left;
+}
+#content .row .pic {
+    border:1px solid #000;
+    margin-right:20px;
+}
+#sidebar {
+    width:300px;
+    background:#FFF;
+    height:800px;
+    float:left;
+}

@@ -1,0 +1,32 @@
+html, body {background:#999;}
+#header {
+    background:#FFF;
+    width:1000px;
+    margin:0 auto 20px auto;    /* top right bottom left */
+}
+main {
+    width:1000px;
+    margin:0 auto;
+}
+.col {
+    background:#FFF;
+    width:490px;
+    float:left;
+    height:300px;
+}
+/*
+This is what's called a "pseudo selector" because of the ":".
+It's another type of selector so we don't have to create another class
+to target the first and the last <div>.
+*/
+div:first-child {margin-right:20px;}
+div:last-child {
+    width:470px;
+    border:10px solid #DA291C;
+}
+
+/*
+.margin-here {
+    margin-right:20px;
+}
+*/

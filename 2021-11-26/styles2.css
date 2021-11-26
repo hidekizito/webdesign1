@@ -1,0 +1,19 @@
+html, body {background:#999;}
+#header {
+    background:#FFF;
+    width:1000px;
+    margin:0 auto 20px auto;    /* top right bottom left */
+}
+main {
+    width:1000px;
+    margin:0 auto;
+}
+div {
+    float:left;
+    width:320px;
+    height:600px;
+    background:#FFF;
+}
+.midcol {
+    margin:0 20px;
+}
